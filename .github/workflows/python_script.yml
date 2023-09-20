@@ -1,6 +1,8 @@
 name: Save DataFrame to CSV
 
-on: [push]
+on:
+  push:
+    branches: [main]
 
 jobs:
   save-to-csv:
